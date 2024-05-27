@@ -2,7 +2,7 @@ macro_win_screenshot: macro_win_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_win_screenshot";
 #binding-cells = <0>;
-bindings = <&sk LEFT_WIN>, <&sk LEFT_SHIFT>, <&kp S>;
+bindings = <&sk LEFT_WIN>, <&sk LS(S)>;
 };
 macro_copy_macro: macro_copy_macro{
 compatible = "zmk,behavior-macro";
